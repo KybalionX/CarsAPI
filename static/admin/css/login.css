@@ -7,7 +7,6 @@
 
 .login #header {
     height: auto;
-    padding: 15px 16px;
     justify-content: center;
 }
 
@@ -25,13 +24,14 @@
 
 .login #container {
     background: var(--body-bg);
-    border: 1px solid var(--hairline-color);
-    border-radius: 4px;
+    border: 2px solid var(--hairline-color);
+    border-radius: 12px;
     overflow: hidden;
     width: 28em;
     min-width: 300px;
     margin: 100px auto;
     height: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .login .form-row {

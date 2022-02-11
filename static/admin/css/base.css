@@ -621,7 +621,7 @@ ul.messagelist li {
     margin: 0 0 10px 0;
     background: var(--message-success-bg) url(../img/icon-yes.svg) 40px 12px no-repeat;
     background-size: 16px auto;
-    color: var(--body-fg);
+    color: var(--message-fg);
 }
 
 ul.messagelist li.warning {
@@ -915,6 +915,7 @@ table#change-history tbody th {
 
 #branding {
     float: left;
+    text-align: center;
 }
 
 #branding h1 {
